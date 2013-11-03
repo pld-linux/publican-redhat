@@ -1,15 +1,15 @@
 Summary:	Publican documentation template files for Red Hat
 Summary(pl.UTF-8):	Pliki szablonów dokumentacji Publicana dla Red Hata
 Name:		publican-redhat
-Version:	2.8
+Version:	3.1
 Release:	1
 License:	CC-BY-SA
 Group:		Development/Tools
 Source0:	https://fedorahosted.org/releases/p/u/publican/%{name}-%{version}.tgz
-# Source0-md5:	c00fca24651435fcf3841c5451ce4ed1
+# Source0-md5:	45e36dcb0cb2f546ade8bcd850282e75
 URL:		https://publican.fedorahosted.org/
-BuildRequires:	publican >= 2.5
-Requires:	publican >= 2.5
+BuildRequires:	publican >= 3.0
+Requires:	publican >= 3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
